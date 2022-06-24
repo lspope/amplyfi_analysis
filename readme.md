@@ -59,7 +59,8 @@ See the [Analysis Notebook](./code/analysis.ipynb) for code and analysis.
 - Instagram and Brexit should not be considered Person entities
 #### A Entity Resolution tool would be helpful for future analysis.
 - If analysis are searching for Entities using "keyword" searches, they should be aware of the different ways Entities can be mentioned. 
-- Various GPE representations for the United States exist (the United States, United States, U.S. USA, US) so being aware of variations could help analysts create a better keyword search term list.
+- For example: multiple PERSON representations for Joe Biden exist (Biden, Joe, and Joe Biden) so being aware of variations could help analysts create a better keyword search term list.
+
 
 
 ### Exploration Point 2: Sources
