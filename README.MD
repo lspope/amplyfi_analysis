@@ -9,7 +9,7 @@ Prepared by: [Leah Pope](https://www.linkedin.com/in/leahspope/)
 
 
 
-# Introduction
+## Introduction
 The goal of this project is to perform an Exploratory Data Analysis on a ~10,000 article dataset and provide some useful insights.
 
 Using the OSEMN Process to conduct Exploratory Data Analysis. OSEMN stands for Obtain, Scrub, Explore, Model, and iNterpret. All stages of the process are used for Machine Learning projects. 
@@ -30,7 +30,7 @@ See the [Analysis Notebook](./code/analysis.ipynb) for code and analysis.
 # EDA Questions Explored
 
 
-## Exploration Point 1 : The Year with the most Articles
+### Exploration Point 1 : The Year with the most Articles
 #### 2019 had the most articles (5184 in total).
 #### What might be interesting about these ESG articles. Exploring PERSON and EVENT entities mentioned in these articles might provide context/insight.
 
@@ -46,7 +46,7 @@ See the [Analysis Notebook](./code/analysis.ipynb) for code and analysis.
 #### The EVENT entity mentions also appear to be in alignment with an ESG search
 - Sporting Events: Olympic Games, World Cup, U.S. Open, Super Bowl
 - Annual Events: Cyber Monday, Black Friday, New Year, Chinese New Year, Holy Week, Independence Day
-- Historic events: he Financial Crisis, the Civil War, Great Depression, the Korean War, Industrial Revolution, the Vietnam War, the Iraq War, Word War I, Watergate, Holocaust, the Cold War, World War II
+- Historic events: the Financial Crisis, the Civil War, Great Depression, the Korean War, Industrial Revolution, the Vietnam War, the Iraq War, Word War I, Watergate, Holocaust, the Cold War, World War II
 - Climate and Science Events: Hurricanes Irma and Dorian and Maria and Hugo, the Paris Climate Accord, Horizon 2020, United Nations Climate Action Summit 
 
 ![top event entities for 2019 chart](./images/top_events_2019.png)
@@ -59,7 +59,8 @@ See the [Analysis Notebook](./code/analysis.ipynb) for code and analysis.
 - Instagram and Brexit should not be considered Person entities
 #### A Entity Resolution tool would be helpful for future analysis.
 - If analysis are searching for Entities using "keyword" searches, they should be aware of the different ways Entities can be mentioned. 
-- Various GPE representations for the United States exist (the United States, United States, U.S. USA, US) so being aware of variations could help analysts create a better keyword search term list.
+- For example: multiple PERSON representations for Joe Biden exist (Biden, Joe, and Joe Biden) so being aware of variations could help analysts create a better keyword search term list.
+
 
 
 ### Exploration Point 2: Sources
